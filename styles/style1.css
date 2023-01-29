@@ -20,7 +20,7 @@ h1{
  
 }
 
-.imag1_section{
+.imag_section , .imag_div{
     display: none;
 
 }
@@ -54,6 +54,7 @@ nav a{
     font-family: cursive;
     padding: 5%;
     margin: 50%;
+    margin-right: 10px;
     display: block;
     padding-top: 2%;
     padding-bottom: 5% ;
