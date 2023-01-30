@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: auto;
+    background-image: url(../assets/hockey-logo.jpg);
+    background-position: top;
+    background-size:cover; 
+    height: 450px;
+    background-repeat: no-repeat;
+
+}
+
+h1{
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+    position: absolute;
+    top: 450px;
+    padding: 5px;
+    left:350px;
+    color:red;
+   }
+
+   .imag_section , .imag_div{
+    display: none;
+}
+
+nav{
+    position: absolute;
+    top:50px ;
+    left: 1000px;
+    
+}
+
+nav a{
+    font-family: cursive;
+    display: inline-block;
+    margin-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 5px ;
+    color: red;
+    text-decoration: underline;
+    border: 1px solid black;
+    border-radius: 10px;
+    background:black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.logo_header{
+   
+    margin-left: 50px;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    max-width:10;
+}
+
+h2{
+    top: 150px;
+    left: 60px;
+    color: black;
+    display: block;
+    font-family: cursive;
+    position: relative;
+    font-size: 15px;
+
+}
+
+.container{
+    position: absolute;
+    margin-top: 50px;
+    top: 500px;
+    left: 350px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+div.container>p{
+    
+    text-indent: 1.2em;
+}
