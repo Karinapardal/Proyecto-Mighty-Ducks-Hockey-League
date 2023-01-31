@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    margin-top: 57px;
+}
+header {
+    width: auto;
+    background-image: url(../assets/design1_image2.jpg);
+    background-position: top;
+    background-size:cover; 
+    height: 450px;
+    background-repeat: no-repeat;
+    
+}
+
+   h1{
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+    position: absolute;
+    top: 0px;
+    padding: 5px;
+   }
+
+
+
+.imag_section , .imag_div{
+    display: none;
+}
+
+nav{
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+    display: inline-block;
+
+}
+
+nav a{
+    right: 15px;
+    padding: 3px 10px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    font-family: cursive;
+    margin: 3px;
+    box-shadow: 2px 2px lightslategray;
+}
+
+ nav a:hover{
+    background-color: green;
+}
+
+h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: block;
+    font-family: cursive;
+}
+
+.logo_header{
+    background-color: black;
+    margin-left: 50px;
+    position: absolute;
+    top: 600px;
+    
+}
+
+.container{
+    position: absolute;
+    margin-top: 50px;
+    left: 300px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+div.container>p{
+    
+    text-indent: 1.2em;
+}
