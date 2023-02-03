@@ -5,49 +5,57 @@
 }
 
 header {
-    width: auto;
-    background-image: url(../assets/hockey-logo.jpg);
+    width: 100%;
     background-position: top;
     background-size:cover; 
-    height: 450px;
-    background-repeat: no-repeat;
+    height: 150px;
+    background-color: green;
+    position: fixed;
+}
 
+.container-flex {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo_header{
+    top: 30px;
+    width:10px;
+    left: 50px;
 }
 
 h1{
     font-size: 40px;
     font-family: cursive;
     font-style: italic;
-    position: absolute;
-    top: 450px;
     padding: 5px;
     left:350px;
-    color:red;
+    color:white;
+    z-index: 1;
    }
 
-   .imag_section , .imag_div{
-    display: none;
-}
-
-nav{
-    position: absolute;
-    top:50px ;
-    left: 1000px;
     
+nav{
+    top:20px ;
 }
 
 nav a{
     font-family: cursive;
-    display: inline-block;
-    margin-right: 2px;
-    padding-top: 2px;
-    padding-bottom: 5px ;
-    color: red;
+    display: block;
+    flex-wrap: wrap;
+    margin: 2px;
+    padding: 2px 10px 2px 10px;
+    color: white;
     text-decoration: underline;
-    border: 1px solid black;
     border-radius: 10px;
     background:black;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 nav a:hover{
@@ -55,37 +63,160 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.logo_header{
-   
-    margin-left: 50px;
-    position: absolute;
-    top: 500px;
-    left: 20px;
-    max-width:10;
+main{
+    width: 100%;
+    height: 90vh;
+}
+
+
+section{
+    width: 100%;
+}
+
+.imag_section{
+    width: 100%;
+    height: auto;
+    
 }
 
 h2{
-    top: 150px;
-    left: 60px;
-    color: black;
+    text-align: center;
+    background-color: black;
+    color: white;
     display: block;
     font-family: cursive;
-    position: relative;
-    font-size: 15px;
-
 }
 
 .container{
-    position: absolute;
+   
     margin-top: 50px;
-    top: 500px;
-    left: 350px;
-    display: inline-block;
     font-size: 18px;
     font-family: cursive;
 }
 
+h3{
+    text-align: center;
+}
+
 div.container>p{
-    
+    text-align: center;
     text-indent: 1.2em;
 }
+
+.rules{
+   width:100% ;
+   padding-top: 500px;
+   background-image: url(../assets/design1_image2.jpg);
+   background-position: top;
+   background-size:cover; 
+   height: 450px;
+   background-repeat: no-repeat;
+}
+
+.reglas_juego{
+    padding:20px 100px ;
+    margin:10px 50px;
+
+}
+
+.intro{
+    text-align: center;
+    background-color: white;
+    color: black;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.intro1{
+    text-align: left;
+    background-color: white;
+    color: black;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.intro_p{
+     text-align: left;
+     margin: auto;
+    
+}
+
+ul,ol,dl,p {
+   margin: 25px;
+   padding: 5px;
+  
+}
+
+.no_lleva{
+    list-style-type:none;
+}
+
+.letra{
+    list-style-type:lower-latin;
+}
+.disc{
+    list-style-type:circle;
+}
+    
+
+.game{
+    width:100% ;
+    padding-top: 500px;
+    background-image: url(../assets/design1_image1.jpg);
+    background-position: top;
+    background-size:cover; 
+    height: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.horarios{
+  
+    width: 100%;
+    height: 100px;
+    padding:100px 100px ;
+    margin-bottom: 100px;
+    
+} 
+
+table{
+    width: 100%;
+  
+
+}
+
+     
+th, td {
+        width: 30%;
+        text-align: left;
+        vertical-align: top;
+}     
+
+.informacion{
+        width: 100%;
+        height: 700px;
+
+}
+
+
+.div_informacion{
+    
+    padding:20px 100px ;
+    margin:10px 50px;
+    
+}
+
+
+footer{
+    width: 100%;
+    height: 100%;
+}
+

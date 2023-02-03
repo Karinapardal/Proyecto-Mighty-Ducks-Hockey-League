@@ -12,9 +12,8 @@ header {
     background-image: url(../assets/design1_image2.jpg);
     background-position: top;
     background-size:cover; 
-    height: 450px;
     background-repeat: no-repeat;
-    
+    height: auto;
 }
 
    h1{
@@ -76,7 +75,7 @@ h2{
     position: absolute;
     margin-top: 50px;
     left: 300px;
-    display: inline-block;
+    width: 100%;
     font-size: 18px;
     font-family: cursive;
 }
