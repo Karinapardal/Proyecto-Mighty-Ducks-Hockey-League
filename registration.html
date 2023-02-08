@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+        <!--<link rel="stylesheet" href="./styles/style1.css"> -->
+        <!-- <link rel="stylesheet" href="./styles/style2.css"> -->
+        <link rel="stylesheet" href="./styles/style3.css"> 
+        <title>Mighty Ducks Hockey League</title>
+    </head>
+    <body>
+        
+        <header>
+            <div class="container-flex">
+                <figure class="logo_header">
+                    <img class="logo" src="assets/Logo_Mighty_ducks-01.png" alt="Logo" width="100" height="100">
+                 </figure>
+                
+                <h1>Mighty Ducks Hockey League</h1>
+            
+               <nav>
+                   <a href="index.html">Home</a>
+                   <a href="about.html">About MDHL</a>
+                   <a href="contact.html">Contac</a>
+                   <a href="rules.html">Rules of play & Policies</a>
+                   <a href="game_info.html">Game Information</a>
+                   <a href="#">Registration Form</a>
+               </nav>
+            </div>
+
+        </header>
+        
+        <main>
+
+            <div>
+                <img class="imag_registro" src="assets/hockey_4.JPG"  alt="foto">
+
+            </div>
+
+            <section class="section_informacion">
+
+                <h2>Registration Form</h2>
+
+                <form class="registracion" action="./show_data.html" method="get">
+                    <fieldset>
+                    <label for="name">Player´s First Name:</label>
+                    <input type="text" name="name" id="name">
+                        <label>
+                        Last Name:
+                        <input type="text" name="apellido" id="apellido">
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label>
+                            Street Address:
+                            <input type="text" name="direcion" id="direcion">
+                        </label>
+        
+                        <label>
+                            City:
+                            <input type="text" name="ciudad" id="ciudad">
+                        </label>
+
+                        <label>
+                            Zip Code:
+                            <input type="number" name="codigoPostal" id="codigoPostal">
+                        </label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <label>
+                            Date:
+                            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+                        </label>
+                        <label>Gender:</label>
+                        <label>
+                            Female
+                            <input type="radio" name="gender" id="femenino">
+                        </label>
+                        <label>
+                            Male
+                            <input type="radio" name="gender" id="masculino">
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label>Grade:</label>
+                        <label>
+                            Pre-School
+                            <input type="radio" name="Grade" id="Pre-School">
+                        </label>
+                        <label>
+                            <sup>1st</sup>
+                            <input type="radio" name="Grade" value="1st">
+                        </label>
+                        <label>
+                            <sup>2nd</sup>
+                            <input type="radio" name="Grade" value="2nd">
+                        </label>
+                        <label>
+                            <sup>3rd</sup>
+                            <input type="radio" name="Grade" value="3rd">
+                        </label>
+                        <label>
+                            <sup>4th</sup>
+                            <input type="radio" name="Grade" value="4th">
+                        </label>
+                        <label>
+                            <sup>5th</sup>
+                            <input type="radio" name="Grade" value="5th">
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Which elementary school do you live near</legend>
+                        <br>
+                        <label> Closet School:</label>
+                        <select name="colege" id="aj">
+                            <option value="">
+                            AJ Katzenmaier
+                        
+                            </option>
+                            <option value="m">
+                            Marjorie P Hart
+                            </option>
+                        
+                            <option value="g">
+                                Greenbay
+                            </option>
+                        
+                            <option value="v">
+                                North Elementary
+                            </option>
+                        
+                            <option value="va">
+                                Howard A Yeager
+                            </option> 
+                        
+                            <option value="val">
+                                South Elementary
+                            </option>
+                    </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend> What position(s) do you normally play?(check all that apply)</legend>
+                        <label>
+                            Forward
+                            <input type="radio" name="Position" value="Forward">
+                        </label>
+                        <label>
+                            Midfield
+                            <input type="radio" name="Position" value="Midfield">
+                        </label>
+                        <label>
+                            Defense
+                            <input type="radio" name="Position" value="Defense">
+                        </label>
+                        <label>
+                            Goalkeeper
+                            <input type="radio" name="Position" value="Goalkeeper">
+                        </label>
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend> Uniform Size:</legend>
+                        <label>
+                            Youth Smal
+                            <input type="radio" name="Uniform" value="Youth Smal">
+                        </label>
+                        <label>
+                            Youth Medium
+                            <input type="radio" name="Uniform" value="Youth Medium">
+                        </label>
+                        <label>
+                            Youth Large
+                            <input type="radio" name="Uniform" value="Youth Large">
+                        </label>
+                        <label>
+                            Small
+                            <input type="radio" name="Uniform" value="Small">
+                        </label>
+                        <label>
+        
+                            Medium
+                            <input type="radio" name="Uniform" value="Medium">
+                        </label>
+                        <label>
+        
+                            Large
+                            <input type="radio" name="Uniform" value="Large">
+                        </label>
+        
+                        <label>
+        
+                            Extra-Large
+                            <input type="radio" name="Uniform" value="Extra-Large">
+                        </label>
+                    </fieldset>
+                
+                    <fieldset class="permiso">
+                        <legend><strong> Permission to Play </strong></legend>
+                        <label> I, the parent or guardian of the minor registrant, agree that the registrant, agree that the registrant and i will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and actvities, i hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant`s participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation.
+                        By signing below, i here by agree and authorizethe above.In addition, by signing below, laslo acknowledge that i have read the cancellation policy and agree to its items.</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="Parent">Parent/GuardianSignature:</label>
+                        <input type="text" id="Parent" name="nombre">
+                    </fieldset>
+                    <fieldset>
+                        <label for="date">Date:</label>
+                        <input type="text" id="date" name="date">
+                    </fieldset>
+
+                    <fieldset>
+                        <!-- <button class="submit" type="submit">Send</button>-->
+                        <input type="submit" value="Send" class="btn-submit">
+                    </fieldset>
+            
+                </form>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <div>
+                <img class="logo_footer" src="./assets/logo-footer.png" alt="imagen">
+          </div>
+
+                <p><strong>Phone:&nbsp;<a href="tel:6306908132">(630)6908132</a>
+                &emsp;&emsp;Email:&nbsp;</strong><a href="mailto:michael.randall@chihockey.org">michael.randall@chihockey.org</a> </p>
+
+        </footer>
+    </body>
+    </html>
